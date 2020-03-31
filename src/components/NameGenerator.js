@@ -8,7 +8,7 @@ export default function NameGenerator() {
         <span className='nameGenerator__output'>NAME Here</span>
       </div>
       <div className='nameGenerator__button-container'>
-        <button className='nameGenerator__button'>random</button>
+        <button className='nameGenerator__button'></button>
       </div>
     </div>
   );
