@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function GeneralGuide() {
   return (
-    <div class='flex-center-container'>
+    <div className='flex-center-container'>
       <div className='card footer'>
         <h1>general rule for naming</h1>
         <ul className='list'>

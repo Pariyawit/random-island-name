@@ -7,11 +7,11 @@ export default function Header() {
       &nbsp;
       <a
         className='header__link'
-        href='https://github.com/pariyawit'
+        href='https://www.linkedin.com/in/pariyawit/'
         target='_blank'
         rel='noopener noreferrer'
       >
-        by TimmyJ
+        by TimJ
       </a>
       <img
         src='/assets/button-random-active.svg'
