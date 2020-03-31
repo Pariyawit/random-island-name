@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f3fffe;
+  color: #303636;
+  height: 100vh;
+}
+
+a {
+  color: #303636;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.header {
+  background-color: #66cdb0;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.6rem 2rem;
+  border-radius: 0 0 2rem 2rem;
+  justify-content: center;
+  &__link {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+}
+
+.cloud-bg {
+  background-image: url('/assets/background-cloud.svg');
+  background-position: center;
+}
+
+.nameGenerator {
+  color: #4f361c;
+  background-size: auto;
+  margin: 12rem 2rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__container {
+    // width: 361px;
+    width: 100%;
+    height: 161px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+  }
+  &__output {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  &__button-container {
+    text-align: center;
+    margin-top: -7.5rem;
+  }
+
+  &__button {
+    margin-left: 2rem;
+    border: none;
+    background: url('/assets/button.svg') no-repeat;
+    width: 260px;
+    height: 108px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: center;
+    line-height: 2.4rem;
+    padding-top: 0.75rem;
+    color: #4f361c;
+  }
+}
+
+.footer {
+  // position: fixed;
+  // bottom: 2rem;
+  margin-top: 10rem;
+  width: 75%;
+  max-width: 800px;
+}
+
+.card {
+  background-color: #fffae4;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.25);
+}
+
+.list {
+  li {
+    line-height: 2rem;
+  }
+}
+
+.flex-center-container {
+  display: flex;
+  justify-content: center;
+}
