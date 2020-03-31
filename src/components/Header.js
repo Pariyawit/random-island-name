@@ -13,6 +13,11 @@ export default function Header() {
       >
         by TimmyJ
       </a>
+      <img
+        src='/assets/button-random-active.svg'
+        style={{ display: 'none' }}
+        alt='button'
+      />
     </header>
   );
 }
